@@ -1,3 +1,13 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
 :root {
     --primary-text-color: #212121;
     --accent-color: #2196F3;
@@ -21,6 +31,9 @@ body{
  color:var(--primary-text-color);
 font-family: 'Roboto', sans-serif;
 }
+.header{
+    background-color: aqua;
+}
 /* Logo */
 .logo {
 color: var(--primary-text-color);
@@ -40,6 +53,12 @@ text-decoration: none;
 }
 
 /* Навігація */
+.container {
+    margin: 32px;
+    margin-right: 853px;
+    margin-left: 453px;
+
+}
 .site-nav{
 list-style-type: none;
 }
@@ -63,6 +82,8 @@ color: var(--accent-color);
 /* Контакти */
 .contact {
 list-style-type: none;
+margin-top: 0;
+margin-bottom: 0;
 }
 .contact a {
     color: var(--second-text-color);
@@ -83,6 +104,8 @@ list-style-type: none;
 /* Герой */
 .hero {
 background-color: var(--hero-background-color);
+margin-top: 0;
+margin-bottom: 0;
 }
 
 .hero-button{
@@ -113,6 +136,10 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+
+padding: 0;
+margin: 0;
+margin-bottom: 30px;;
 }
 h2 {
 
@@ -234,6 +261,11 @@ font-family: 'Roboto';
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    
+    display: inline-block;
+    border-radius: 4px;
+    padding: 6px 22px;
+    text-align: center;
 }
 .button-list {
 list-style-type: none;
