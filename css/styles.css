@@ -34,6 +34,16 @@ font-family: 'Roboto', sans-serif;
 .header{
     background-color: aqua;
 }
+
+/* Контейнер */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 2px solid rgb(255, 0, 208);
+}
 /* Logo */
 .logo {
 color: var(--primary-text-color);
@@ -53,11 +63,6 @@ text-decoration: none;
 }
 
 /* Навігація */
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-}
 .site-nav{
 list-style-type: none;
 }
@@ -76,7 +81,6 @@ color: var(--accent-color);
 .site-nav a:focus{
     background-color: var(--focus-back-color);
 }
-
 
 /* Контакти */
 .contact {
@@ -103,10 +107,10 @@ margin-bottom: 0;
 /* Герой */
 .hero {
 background-color: var(--hero-background-color);
-margin-top: 0;
-margin-bottom: 0;
+padding-top: 200px;
+padding-bottom: 200px;
+height: 600px;
 }
-
 .hero-button{
 color: var(--hero-button-color);
 cursor: pointer;
@@ -123,26 +127,30 @@ font-family: 'Roboto';
 border-radius: 4px;
 margin-left: auto;
 margin-right: auto;
+margin-top: 0;
+margin-bottom: 200px;
 
 }
 .hero-button:hover{
 background-color:var(--hero-accent-color);
 }
+.hero h1{
+    color: var(--h1-color);
+    
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
 
-h1 {
-color:var(--h1-color);
-
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-padding: 0;
-margin-top: 0;
-margin-bottom: 30px;;
+    min-width: 696px;
+    margin-bottom: 30px;
+    margin-right: 0;
+    margin-left: 0;
 }
+
 h2 {
 
 font-weight: 700;
@@ -153,12 +161,18 @@ letter-spacing: 0.03em;
 }
 
 /* Особливості */
+.specific-selection{
+    background-color: orange;
+    padding: 94px 215px;
+}
 .specifics{
 display: none;
 }
  .specifics-list{
 list-style-type: none;
- }
+margin-top: 0;
+margin-bottom: 0;
+}
 
 .specifics-list h3{
 
@@ -169,22 +183,48 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 
+margin-top: 0;
+margin-bottom: 10px;
+
 }
 .specifics-list p {
 color: var(--second-text-color);
 
 font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;    
+letter-spacing: 0.03em; 
+
+margin-top: 0;
+margin-bottom: 0;
 }
 
 /* Чим ми займаємось */
+.what-we-do-section{
+    background-color: aqua;
+    padding-top: 0;
+    padding-bottom: 94px;
+}
+.what-we-do {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
 .what-we-do-list{
-list-style-type: none;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-/* Наша команда */
 
+/* Наша команда */
+.our-team{
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.our-team-head{
+    margin-top: 0;
+    margin-bottom: 50px;
+}
 .our-team-list h3{
 
 font-weight: 500;
@@ -192,6 +232,8 @@ font-size: 16px;
 line-height: 1.19;
  text-align: center;
 letter-spacing: 0.03em;
+margin-top: 30px;
+margin-bottom: 10px;
 }
 .our-team-list p{
 color: var(--second-text-color);
@@ -200,14 +242,21 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
+
+margin-top: 0;;
+margin-bottom: 0;
 }
 .our-team-list{
 list-style-type: none;
+margin-top: 0;
+margin-bottom: 0;
 }
 
 /* Футер */
 .footer {
 background-color:var(--footer-back-color);
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
 .logo-footer{
@@ -242,6 +291,8 @@ color: var(--accent-color);}
 }
 .contact-footer{
 list-style-type: none;
+margin-top: 0;
+margin-bottom: 0;
 }
 .street {
 color:var(--logo-footer-color);
@@ -252,7 +303,13 @@ color:var(--logo-footer-color);
 .portfolio {
 display: none;
 }
-
+.portfolio-selection{
+    background-color: rgb(214, 127, 255);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 94px;
+    padding-bottom: 34px;
+}
 /* button-list */
 .button-list button{
 background-color:var(--portfolio-button-color);
@@ -264,13 +321,14 @@ font-family: 'Roboto';
     text-align: center;
     letter-spacing: 0.03em;
     
-    display: inline-block;
     border-radius: 4px;
     padding: 6px 22px;
     text-align: center;
 }
 .button-list {
 list-style-type: none;
+margin-top: 0;
+margin-bottom: 0;
 }
 .button-list button:hover{
 color:var(--hero-button-color);
@@ -283,12 +341,19 @@ background-color:var(--focus-back-color);
 }
 
 /* Проект */
+.project {
+    background-color: aquamarine;
+    padding-bottom: 94px;
+}
 .project-list h3{
 
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-top: 20px;
+    margin-bottom: 4px;
+
 }
 .project-list p {
     color: var(--second-text-color);
@@ -296,8 +361,12 @@ background-color:var(--focus-back-color);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .project-list{
 list-style-type: none;
+margin-top: 0;
+margin-bottom: 0;
 }
