@@ -44,6 +44,12 @@ font-family: 'Roboto', sans-serif;
     padding-right: 10px;
     outline: 2px solid rgb(255, 0, 208);
 }
+/* Main nav */
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
 /* Logo */
 .logo {
 color: var(--primary-text-color);
@@ -65,6 +71,8 @@ text-decoration: none;
 /* Навігація */
 .site-nav{
 list-style-type: none;
+display: flex;
+margin-left: 93px;
 }
 .site-nav a{
     color: var(--primary-text-color);
@@ -81,12 +89,20 @@ color: var(--accent-color);
 .site-nav a:focus{
     background-color: var(--focus-back-color);
 }
+.site-nav .item:not(:last-child){
+    margin-right: 50px;
+}
 
 /* Контакти */
 .contact {
-list-style-type: none;
-margin-top: 0;
-margin-bottom: 0;
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+.contact .item + .item{
+    margin-left: 50px;
 }
 .contact a {
     color: var(--second-text-color);
