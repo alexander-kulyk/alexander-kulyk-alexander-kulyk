@@ -185,6 +185,7 @@ letter-spacing: 0.03em;
 display: none;
 }
  .specifics-list{
+display: flex;
 list-style-type: none;
 margin-top: 0;
 margin-bottom: 0;
@@ -225,10 +226,20 @@ margin-bottom: 0;
     margin-bottom: 50px;
 }
 .what-we-do-list{
+    display: flex;
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+    justify-content: center;
+
 }
+.what-we-do-list .item:not(:last-child){
+    margin-right: 30px;
+}
+
+
 
 
 /* Наша команда */
@@ -263,9 +274,15 @@ margin-top: 0;;
 margin-bottom: 0;
 }
 .our-team-list{
+display: flex;
 list-style-type: none;
 margin-top: 0;
 margin-bottom: 0;
+padding-left: 0;
+justify-content: center;
+}
+.our-team-list .item + .item {
+    margin-left: 30px;
 }
 
 /* Футер */
