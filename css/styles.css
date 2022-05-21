@@ -40,8 +40,6 @@ font-family: 'Roboto', sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding-left: 10px;
-    padding-right: 10px;
     outline: 2px solid rgb(255, 0, 208);
 }
 /* Main nav */
@@ -355,7 +353,7 @@ display: none;
     padding-bottom: 34px;
 }
 /* button-list */
-.button-list button{
+.button-list button {
 background-color:var(--portfolio-button-color);
 font-family: 'Roboto';
     border-radius: 4px;
@@ -370,6 +368,8 @@ font-family: 'Roboto';
     text-align: center;
 }
 .button-list {
+    display: flex;
+    justify-content: center;
 list-style-type: none;
 margin-top: 0;
 margin-bottom: 0;
@@ -382,6 +382,9 @@ background-color: var(--accent-color);
 cursor: pointer;
 color:var(--accent-color);
 background-color:var(--focus-back-color);
+}
+.button-list .item:not(:last-child){
+    margin-left: 8px;
 }
 
 /* Проект */
@@ -410,7 +413,19 @@ background-color:var(--focus-back-color);
 }
 
 .project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 list-style-type: none;
 margin-top: 0;
 margin-bottom: 0;
+padding-left: 0;
+padding-right: 0;
+}
+.project-list .item {
+    margin-right: 30px;
+}
+.project-list .item:nth-child(3n) {
+    margin-right: 0;
 }
