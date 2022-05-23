@@ -130,23 +130,27 @@ padding-bottom: 200px;
 height: 600px;
 }
 .hero-button{
-color: var(--hero-button-color);
-cursor: pointer;
-background-color:var(--hero-back-color);
-font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+    padding: 10px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
-border-radius: 4px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 0;
-margin-bottom: 200px;
+    
+    color: var(--hero-button-color);
+    background-color:var(--hero-back-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 
 }
 .hero-button:hover{
@@ -361,18 +365,18 @@ display: none;
 }
 /* button-list */
 .button-list button {
-background-color:var(--portfolio-button-color);
-font-family: 'Roboto';
-    border-radius: 4px;
+    padding: 6px 22px;
+
+    background-color:var(--portfolio-button-color);
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    
+
     border-radius: 4px;
-    padding: 6px 22px;
-    text-align: center;
+    border: none;
 }
 .button-list {
     display: flex;
@@ -382,8 +386,10 @@ margin-top: 0;
 margin-bottom: 0;
 }
 .button-list button:hover{
-color:var(--hero-button-color);
-background-color: var(--accent-color);
+    color: var(--hero-button-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 .button-list button:focus{
 cursor: pointer;
