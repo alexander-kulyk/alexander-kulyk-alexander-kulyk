@@ -33,9 +33,6 @@ body{
  color:var(--primary-text-color);
 font-family: 'Roboto', sans-serif;
 }
-.header{
-    background-color: aqua;
-}
 
 /* Контейнер */
 .container {
@@ -46,8 +43,8 @@ font-family: 'Roboto', sans-serif;
 }
 .header{
     border-bottom-width: 1px;
-        border-bottom-style: solid;
-        border-bottom-color: var(--border-color-head);
+    border-bottom-style: solid;
+    border-bottom-color: var(--border-color-head);
 }
 /* Main nav */
 .main-nav {
@@ -183,7 +180,6 @@ letter-spacing: 0.03em;
 
 /* Особливості */
 .specific-selection{
-    background-color: orange;
     padding: 94px 215px;
 }
 .specifics{
@@ -222,7 +218,6 @@ margin-bottom: 0;
 
 /* Чим ми займаємось */
 .what-we-do-section{
-    background-color: aqua;
     padding-top: 0;
     padding-bottom: 94px;
 }
@@ -301,7 +296,7 @@ justify-content: center;
 /* Футер */
 .footer {
 background-color:var(--footer-back-color);
-padding-top: 0;
+padding-top: 60px;
 padding-bottom: 0;
 height: 252px;
 }
@@ -354,14 +349,11 @@ padding-left: 0;
 color:var(--logo-footer-color);
 }
 
-
-
 /* Портфоліо */
 .portfolio {
 display: none;
 }
 .portfolio-selection{
-    background-color: rgb(214, 127, 255);
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 94px;
@@ -404,7 +396,6 @@ background-color:var(--focus-back-color);
 
 /* Проект */
 .project {
-    background-color: aquamarine;
     padding-bottom: 94px;
 }
 .project-list h3{
