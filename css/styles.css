@@ -24,8 +24,8 @@ html{
     --contact-footer-color: rgba(255, 255, 255, 0.6);
     --portfolio-button-color: #F5F4FA;
     --focus-back-color: rgba(0, 0, 0, 0);
-    --border-color: #EEEEEE;
     --border-color-head: #ECECEC;
+    --border-color: rgba(255, 255, 255, 0.0) #EEEEEE #EEEEEE #EEEEEE;
 
 }
 body{
@@ -448,10 +448,9 @@ padding-right: 0;
     margin-bottom: 0;
 }
 .border-content{
-    /* border: 1px solid #EEEEEE; */
     width: 370px;
     
-    border-right-width: 1px;
+    /* border-right-width: 1px;
     border-right-style: solid;
     border-right-color: var(--border-color);
 
@@ -461,9 +460,11 @@ padding-right: 0;
 
     border-left-width: 1px;
     border-left-style: solid;
-    border-left-color: var(--border-color);
-    
+    border-left-color: var(--border-color); */
+    border: 1px solid;
+    border-color: var(--border-color);
 }
 .project-list img {
     display: block;
+    padding-bottom: -5px;
 }
