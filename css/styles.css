@@ -276,12 +276,13 @@ body{
     letter-spacing: 0.03em;
 }
 .our-team-list{
-display: flex;
-list-style-type: none;
-margin-top: 0;
-margin-bottom: 0;
-padding-left: 0;
-justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    display: flex;
+    list-style-type: none;
+     justify-content: center;
 }
 .our-team-list .item + .item {
     margin-left: 30px;
@@ -297,15 +298,13 @@ justify-content: center;
 
 /* Футер */
 .footer {
-background-color:var(--footer-back-color);
-padding-top: 60px;
-padding-bottom: 0;
-height: 252px;
+    padding-top: 60px;
+    padding-bottom: 0;
+    height: 252px;
+    background-color:var(--footer-back-color);
 }
 
 .logo-footer{
-    margin-bottom: 20px;
-
 color:var(--logo-footer-color);
 
     font-family: 'Raleway', sans-serif;
@@ -330,30 +329,37 @@ color:var(--logo-footer-color);
 }
 .contact-footer .item:not(:last-child){
     margin-bottom: 9px;
-
 }
 .contact-footer a {
-color:var(--contact-footer-color);
-text-decoration: none;
+    color: var(--contact-footer-color);
+    text-decoration: none;
 }
 .contact-footer a:hover {
-color: var(--accent-color);}
+    color: var(--accent-color);
+
+}
 .contact-footer a:focus {
     background-color:var(--focus-back-color);
 }
 .contact-footer{
-list-style-type: none;
-margin-top: 0;
-margin-bottom: 0;
-padding-left: 0;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
-.street {
-color:var(--logo-footer-color);
+.address{
+    margin-top: 20px;
+}
+.street p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--logo-footer-color);
 }
 
 /* Портфоліо */
 .portfolio {
-display: none;
+    display: none;
+
 }
 .portfolio-selection{
     margin-top: 0;
@@ -376,11 +382,12 @@ display: none;
     border: none;
 }
 .button-list {
+    margin-top: 0;
+    margin-bottom: 0;
+
     display: flex;
     justify-content: center;
-list-style-type: none;
-margin-top: 0;
-margin-bottom: 0;
+    list-style-type: none;
 }
 .button-list button:hover{
     color: var(--hero-button-color);
@@ -389,9 +396,9 @@ margin-bottom: 0;
     cursor: pointer;
 }
 .button-list button:focus{
-cursor: pointer;
-color:var(--accent-color);
-background-color:var(--focus-back-color);
+    cursor: pointer;
+    color: var(--accent-color);
+    background-color: var(--focus-back-color);
 }
 .button-list .item:not(:last-child){
    margin-right: 8px;;
@@ -422,14 +429,15 @@ background-color:var(--focus-back-color);
 }
 
 .project-list{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-list-style-type: none;
-margin-top: 0;
-margin-bottom: 0;
-padding-left: 0;
-padding-right: 0;
+    list-style-type: none;
 }
 .project-list .item {
     width: calc((100% - 60px)/3);
