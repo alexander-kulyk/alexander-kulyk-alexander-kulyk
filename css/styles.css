@@ -36,10 +36,17 @@ body{
 
 /* Контейнер */
 .container {
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
     /* outline: 2px solid rgb(255, 0, 208); */
+}
+/* section padding */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .header{
     border-bottom-width: 1px;
@@ -180,7 +187,7 @@ h2 {
 
 /* Особливості */
 .specific-selection{
-    padding: 94px 215px;
+    padding-top: 94px;
 }
 .specifics{
     display: none;
@@ -215,10 +222,7 @@ h2 {
 }
 
 /* Чим ми займаємось */
-.what-we-do-section{
-    padding-top: 0;
-    padding-bottom: 94px;
-}
+
 .what-we-do {
     margin-top: 0;
     margin-bottom: 50px;
@@ -243,8 +247,6 @@ h2 {
 /* Наша команда */
 .our-team{
     background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .our-team-head{
     margin-top: 0;
@@ -353,7 +355,6 @@ display: none;
 .portfolio-selection{
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 94px;
     padding-bottom: 34px;
 }
 /* button-list */
@@ -394,9 +395,6 @@ background-color:var(--focus-back-color);
 }
 
 /* Проект */
-.project {
-    padding-bottom: 94px;
-}
 .project-list h3{
 
     font-weight: 700;
