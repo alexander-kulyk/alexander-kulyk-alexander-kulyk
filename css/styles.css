@@ -25,7 +25,7 @@ html{
     --portfolio-button-color: #F5F4FA;
     --focus-back-color: rgba(0, 0, 0, 0);
     --border-color-head: #ECECEC;
-    --border-color: rgba(255, 255, 255, 0.0) #EEEEEE #EEEEEE #EEEEEE;
+    --border-color: #EEEEEE;
 
 }
 body{
@@ -430,11 +430,7 @@ color:var(--logo-footer-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
     margin-bottom: 4px;
-    margin-left: 24px;
-
-
 }
 .project-list p {
     color: var(--second-text-color);
@@ -443,8 +439,6 @@ color:var(--logo-footer-color);
     line-height: 1.88;
     letter-spacing: 0.03em;
     margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 24px;
 }
 
 .project-list{
@@ -476,8 +470,9 @@ color:var(--logo-footer-color);
 }
 .border-content{
     width: 370px;
+    padding: 20px 24px;
     
-    /* border-right-width: 1px;
+    border-right-width: 1px;
     border-right-style: solid;
     border-right-color: var(--border-color);
 
@@ -487,11 +482,10 @@ color:var(--logo-footer-color);
 
     border-left-width: 1px;
     border-left-style: solid;
-    border-left-color: var(--border-color); */
-    border: 1px solid;
-    border-color: var(--border-color);
+    border-left-color: var(--border-color);
+    /* border: 1px solid;
+    border-color: var(--border-color); */
 }
 .project-list img {
     display: block;
-    padding-bottom: -5px;
 }
