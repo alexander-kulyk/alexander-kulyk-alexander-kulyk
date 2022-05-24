@@ -251,12 +251,12 @@ body{
 .our-team{
     background-color: #F5F4FA;
 }
-.our-team-head{
-    margin-top: 0;
-    margin-bottom: 50px;
+.our-team-text  {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .our-team-list h3{
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 10px;
 
     font-weight: 500;
